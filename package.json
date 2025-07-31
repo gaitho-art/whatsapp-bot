@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-reminder-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# whatsapp-bot\" \r \"# whatsapp-bot\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,20 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^6.7.18",
     "chrono-node": "^2.8.3",
+    "date-fns": "^4.1.0",
     "node-schedule": "^2.1.1",
+    "pino": "^9.7.0",
     "qrcode-terminal": "^0.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaitho-art/whatsapp-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaitho-art/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/gaitho-art/whatsapp-bot#readme"
 }
